@@ -9,11 +9,6 @@ source:
   url: https://github.com/SMTG-UCL/doped/archive/{{ version }}.tar.gz
   sha256: 0d23f536b988dc42e819bd4959c472231df540f8c8cfbada90e36c2e85485bbd
 
-
-# PyPI (no test files...)
-#  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-#  sha256: a1eca51ccdc1fdc9e71e39d1f864c4cf472c7452fa86c717ab192688afa9a933
-
 build:
   noarch: python
   number: 0
@@ -35,7 +30,7 @@ requirements:
     # https://github.com/spglib/spglib/issues/462 -- update Troubleshooting.rst and spglib warning in
     # doped.utils.symmetry when finally resolved
     - pymatgen-analysis-defects >=2023.8.22
-    - shakenbreak >=3.3.1
+    - shakenbreak >=3.3.4
     - pandas
     - filelock
     # - pydefect  # not available on conda-forge currently, will update in future if it is. User installation instructions say to install afterwards with pip
