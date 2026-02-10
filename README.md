@@ -7,7 +7,7 @@ Home: https://github.com/SMTG-Bham/doped
 
 Package license: MIT
 
-Summary: Python package to setup, process and analyse solid-state defect calculations with VASP
+Summary: Python package to setup, process and analyse solid-state defect calculations/
 
 Development: https://github.com/SMTG-Bham/doped
 
