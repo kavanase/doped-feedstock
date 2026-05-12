@@ -39,6 +39,7 @@ test:
     - python {{ python_min }}
   imports:
     - doped
+    - pydefect  # test pydefect import, previously wasn't on conda-forge, required for eFNV correctiona and eigenvalue analysis
 
 about:
   home: https://github.com/SMTG-Bham/doped
